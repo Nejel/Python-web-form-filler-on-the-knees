@@ -11,9 +11,9 @@ WARNING: For Windows the latest version of Chromedriver does now work. Use 2.27 
 '''
 
 
-!pip install openpyxl
-!pip install bs4
-!pip install -U selenium
+pip install openpyxl
+pip install bs4
+pip install -U selenium
 
 #Selenium 3.6.0. Use 'help (selenium)' to check
 
@@ -33,13 +33,13 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.keys import Keys
 
-os.chdir('c:\\users\\user')
+os.chdir('C:\\Users\\nezhelsky\\Desktop\\Projects\\!_Code\\GitHub\\Python-web-form-filler-on-the-knees')
 
 ##os.getcwd()
-##Should returns only 'c:\\users\\user'
+##Should returns only 'C:\\Users\\nezhelsky\\Desktop\\Projects\\!_Code\\GitHub\\Python-web-form-filler-on-the-knees'
 
 #Setting UP start line in xlsx file
-i = 52
+i = 2
 
 ## Browser first force start
 browser = webdriver.Chrome()
@@ -47,8 +47,7 @@ browser = webdriver.Chrome()
 browser.get('https://app.customergauge.com/index.php?m=AdminUsersManager&a=create')
 
 
-##########################Login Break###############################
-
+input()
 
 #r range means how many users should be created (by rows)
 for r in range (4):
