@@ -11,11 +11,9 @@ WARNING: For Windows the latest version of Chromedriver does now work. Use 2.27 
 '''
 
 
-!pip install MechanicalSoup
 !pip install openpyxl
 !pip install bs4
 !pip install -U selenium
-!pip install mechanicalsoup
 
 #Selenium 3.6.0. Use 'help (selenium)' to check
 
@@ -28,7 +26,6 @@ import stat
 import bs4
 import time
 import requests
-#import mechanicalsoup
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
